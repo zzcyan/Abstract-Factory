@@ -1,3 +1,4 @@
 public interface Channel {
-    public void getMessage();
+    public void send();
+    public void receive();
 }
